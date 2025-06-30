@@ -7,7 +7,7 @@ This project is a Rust-based HTTP server that exposes Solana-related endpoints. 
 All endpoints return JSON responses in the following format:
 - **Success (HTTP 200):**
   ```json
-  { "success": true, "data": { /* endpoint-specific result */ } }
+  { "success": true, "data": { "example_field": "example_value" } }
   ```
 - **Error (HTTP 400):**
   ```json
