@@ -1,4 +1,4 @@
-# Solana Fellowship Assignment – Rust HTTP Server
+# Solana Rust HTTP Server
 
 ## Overview
 This project is a Rust-based HTTP server that exposes Solana-related endpoints. It provides functionality to generate keypairs, handle SPL tokens, sign/verify messages, and construct valid on-chain instructions. All cryptographic operations use standard libraries, and no private keys are stored on the server.
@@ -224,5 +224,3 @@ curl -X POST http://localhost:3000/keypair
 - The server is suitable for local development, testing, and as a reference implementation for Solana-related HTTP APIs.
 
 ---
-
-**Solana Fellowship Assignment – Rust HTTP Server Solution**
